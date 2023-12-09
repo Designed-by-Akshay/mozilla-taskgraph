@@ -15,6 +15,7 @@ with open(os.path.join(project_dir, "requirements/base.in")) as fp:
 setup(
     name="mozilla-taskgraph",
     version=version,
+    author="Andrew Halberstadt",
     description="Mozilla-specific transforms and utilities for Taskgraph",
     url="https://github.com/mozilla-releng/mozilla-taskgraph",
     packages=find_packages("src"),
